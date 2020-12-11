@@ -1,0 +1,79 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family: arial;
+}
+
+header{
+	background-color: #00A41D;
+	padding:20px;
+	display: flex;
+}
+
+h1{
+	font-weight: 400;
+	font-size: 38px;
+	color: #f4f4f4;
+}
+
+.addItems{
+	margin-left: auto;
+	margin-top: 25px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#addThis{
+	width:80%;
+	padding:3px;
+}
+
+#addBtn{
+	padding: 2px;
+	background-color: rgba(0,0,0,0.9);
+	color: #fff;
+	border:0;
+	border-radius: 3px;
+}
+
+#addBtn:hover , #doneBtn:hover{
+	cursor: pointer;
+}
+
+/*Check List*/
+
+.checkList{
+	max-width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 48px;
+}
+
+#listItem{
+	list-style-type: none;
+	background-color: #f4f4f4;
+	padding: 10px;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+
+.delete{
+	float: right;
+	padding: 3px;
+	border: 0;
+	background-color: rgb(255,0,0);
+	color: #fff;
+	border-radius: 4px;
+}
+
+.done{
+	float: right;
+	padding: 3px;
+	border: 0;
+	background-color: #000;
+	color: #fff;
+	border-radius: 4px;
+}
